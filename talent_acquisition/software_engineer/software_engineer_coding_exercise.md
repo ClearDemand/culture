@@ -7,7 +7,7 @@ For this exercise, develop a full stack application using both the technical req
 1. Share the link to your solution in a GitHub public repository
 1. Share a link to your working application deployed to the cloud provider of your choice.
 
-_Note: This exercise may seem rather lengthy, however, we've been purposely verbose to explain the business requirements for the solution.  See the [Helpful Hints](#helpful-hints) section._
+_Note: This exercise may seem rather lengthy, however, we've been purposely verbose to explain the business requirements for the solution.  See the [Helpful Hints](#helpful-hints) section for guidance at using your time wisely._
 
 ## Technical Requirements
 
@@ -19,15 +19,16 @@ For this application, the following are the preferred technolgies we would like 
 
 ### Deploying Your Applcation
 
-All of the major cloud providers provide some sort of introductory and Always Free plan for
+All of the major cloud providers provide some sort of introductory free and "always free" plan for providing cloud resources for your application.
 
 [free-for.dev](https://free-for.dev/) is a good resource for finding free resources that developers can use to experiment with without incurring any cost.
 
 ## Backstory
 
 Retail store owners have limited space on their shelves with which they can use. 
-Even for store owners doing E-Commerce, there is a limited set of capacity they have to "warehouse" the products they sell.
-For store owners who sell seasonal items, demand for those items tapers off sharply as that season comes to a close.  No store owner wants to be left with a bunch of Halloween decor after October 31st if they are trying to prepare to sell products for the Fall and Winter holidays like Thanksgiving and Christmas.
+Even for store owners doing E-Commerce, there is a limited set of capacity they have to "warehouse" the products they sell. For store owners who sell seasonal items, demand for those items tapers off sharply as that season comes to a close.
+
+No store owner wants to be left with a bunch of Halloween decor after October 31st if they are trying to prepare to sell products for the Fall and Winter holidays like Thanksgiving and Christmas.
 
 We want to create a simple application that will allow a small business owner to run some what-if scenarios that will allow them to create a plan to put their products on clearance so they can get rid of their excess inventory.
 
@@ -37,7 +38,7 @@ The following are a set of user stories to help craft the application
 
 #### Value
 
-As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a set of Products that I sell
+As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a set of Products that I sell.
 
 #### Acceptance Criteria
 * For products I want to be able to set
@@ -49,13 +50,13 @@ As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a
 
 #### Value
 
-As a Store Owner, I want to be able to set the current inventory of my products
+As a Store Owner, I want to be able to set the current inventory of my products.
 
 #### Acceptance Criteria
 
 * For a selected product...
-  * I should be able to set and update the quanitity
-  * If I enter a quantity of zero, assume that means it's out of stock
+  * I should be able to set and update the quanitity.
+  * If I enter a quantity of zero, assume that means it's out of stock.
 
 ### User Story #3: Ability to Create a Markdown Strategy
 
@@ -116,7 +117,7 @@ Note: We want to enter sales data using the Markdown Plan I created.
 
 #### Value
 
-As a Store Owner, for each day, I want to see my profit or loss
+As a Store Owner, for each day, I want to see my profit or loss.
 
 _Note: We want to see the results of the plan in terms of profit and loss._
 
