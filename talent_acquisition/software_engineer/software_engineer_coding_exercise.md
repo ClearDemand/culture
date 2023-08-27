@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For this exercise, develop a full stack application using both the technical requirements and user stories below. Provide both the source code and a working version of your application.
+For this exercise, develop a full stack application using both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
 
 1. Share the link to your solution in a GitHub public repository
 1. Share a link to your working application deployed to the cloud provider of your choice.
