@@ -80,9 +80,9 @@ Note: a markdown is a permanent price decrease on an item at the end of its life
 
 #### Value
 
-As a Store Owner, I want to be able to establish up to 3 price reduction rules for the Markdown Plan.
+As a Store Owner, I want to be able to establish 3 price reduction rules for the Markdown Plan.
 
-Note: during the course of the markdown plan we'll allow for up to 3 price reductions.  These will be entered as a percentage.  The percentage that is entered will apply to the previous price reduction.
+Note: during the course of the markdown plan we'll allow for 3 price reductions.  These will be entered as a percentage.  The percentage that is entered will apply to the previous price.
 
 #### Acceptance Criteria
 
