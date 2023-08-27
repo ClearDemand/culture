@@ -164,7 +164,7 @@ This exercise may seem rather lengthy to complete, but it boils down to a few ba
 * Entering simulated sales for those products
 * Doing some basic math to compute inventory and profit metrics based on sales.
 
-We're not expecting this to take more than a few days of spare time.  Skip the optional section if you find yourself spending too much time on it.  Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying applying the business rules on the backend.  Get the basics down and then iterate to make refinements.
+We're not expecting this to take more than a few days of spare time.  Skip the optional section if you find yourself spending too much time on it.  Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying you're ability to also focus on the business rules on the backend.  Get the basics down and then iterate to make refinements.
 
 Finally, demonstrate the software engineering techniques which you practice and advocate for.
 
