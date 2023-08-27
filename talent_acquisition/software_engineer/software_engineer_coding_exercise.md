@@ -1,4 +1,4 @@
-# Coding Exercise for Software Engineer
+# Coding Exercise for Software Engineering Roles
 
 ## Instructions
 
@@ -7,11 +7,13 @@ For this exercise, develop a full stack application using both the technical req
 1. Share the link to your solution in a GitHub public repository
 1. Share a link to your working application deployed to the cloud provider of your choice.
 
-_Note: This exercise may seem rather lengthy, however, we've been purposely verbose to explain the business requirements for the solution.  See the [Helpful Hints](#helpful-hints) section for guidance at using your time wisely._
+**E-mail devteam@cleardemand.com with the above links to your solution.**
+
+_Note: This exercise may seem rather lengthy, however, we've been purposely verbose to explain the business requirements for the solution.  See the [Helpful Hints](#helpful-hints) section for guidance on using your time wisely._
 
 ## Technical Requirements
 
-For this application, the following are the preferred technolgies we would like to see used to implement this solution.
+The following are the preferred technolgies we would like to see used to implement this solution.
 
 * Blazor WebAssembly
 * ASP.NET
