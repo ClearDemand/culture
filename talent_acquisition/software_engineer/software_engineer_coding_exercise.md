@@ -36,31 +36,27 @@ We want to create a simple application that will allow a small business owner to
 
 The following are a set of user stories to help craft the application
 
-### User Story #1: Maintain the Products Being Sold
+## Setup
 
-#### Value
+For the purposes of reducing the scope of this exercise, we're going to assume that the system already has products and inventory already set up.
 
-As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a set of Products that I sell.
+Rather than building out the full-stack CRUD functionality to maintain these entities in the database...
 
-#### Acceptance Criteria
-* For products I want to be able to set
+1. Create whatever entities you need in your backend database to represent the concept of Products and Inventory
+1. Populate those entities with dummy data.
+
+For the purposes of this exercise, a **Product** should have the following attributes:
   * a unique human readable identifier (i.e. UPC)
   * a description
   * a cost (this is how much the product costs me as a store owner to manufacture or buy)
 
-### User Story #2: Ability to Set the Current Inventory Level
+**Inventory** is defined as the number of units of a product on hand at a specific date.
 
-#### Value
+_**Don't skip this step.**_  You'll need to represent Prodcuts and Inventory to complete the user stories below.
 
-As a Store Owner, I want to be able to set the current inventory of my products.
+## User Stories
 
-#### Acceptance Criteria
-
-* For a selected product...
-  * I should be able to set and update the quanitity.
-  * If I enter a quantity of zero, assume that means it's out of stock.
-
-### User Story #3: Ability to Create a Markdown Strategy
+### User Story #1: Ability to Create a Markdown Plan
 
 #### Value
 
@@ -76,7 +72,7 @@ Note: a markdown is a permanent price decrease on an item at the end of its life
 * I should be able to set the target end date for my mardown plan.
 * The target end date should be no less than one week after the beginning date.
 
-### User Story #3: Establish 3 price reductions during the course of the markdown
+### User Story #2: Establish 3 price reductions during the course of the markdown
 
 #### Value
 
@@ -99,7 +95,7 @@ I have a Markdown Plan which goes from September 1st through the 30th. The curre
 * On the last day, I want to markdown the product 75%, bringing the price to $1.00.
 
 
-### User Story #4 Enter Sales Data
+### User Story #3 Enter Sales Data
 
 #### Value
 
@@ -115,7 +111,7 @@ Note: We want to enter sales data using the Markdown Plan I created.
 * The sell price **must** reflect the price reductions set up in the Markdown Plan.
 
 
-### User Story #5 See Daily Metrics
+### User Story #4 See Daily Metrics
 
 #### Value
 
@@ -137,7 +133,9 @@ _Note: We want to see the results of the plan in terms of profit and loss._
 
 ## Optional
 
-### User Story #6: View a Summary Report
+All the user stories below are completely optional to implement for this exercise.
+
+### User Story #5: View a Summary Report
 
 #### Value
 
@@ -156,15 +154,43 @@ _Note: We want to see the results of the plan in terms of profit and loss._
   * the profit (or loss) for that product over the entire plan.
   * the final remaining inventory (number of units) after all of the sales.
 
+### User Story #6: Maintain the Products Being Sold
+
+#### Value
+
+As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a set of Products that I sell.
+
+#### Acceptance Criteria
+* For products I want to be able to set
+  * a unique human readable identifier (i.e. UPC)
+  * a description
+  * a cost (this is how much the product costs me as a store owner to manufacture or buy)
+
+### User Story #7: Ability to Set the Current Inventory Level
+
+#### Value
+
+As a Store Owner, I want to be able to set the current inventory of my products.
+
+#### Acceptance Criteria
+
+* For a selected product...
+  * I should be able to set and update the quanitity.
+  * If I enter a quantity of zero, assume that means it's out of stock.
+
 ## Helpful hints
 
 This exercise may seem rather lengthy to complete, but it boils down to a few basic concepts:
-* Managing information about Products (basic data entry CRUD operations)
-* Creating plans to put Products on Clearance (more basic CRUD)
+* Designing and creating database entities for Products and Inventory
+* Creating plans to put Products on Clearance (Mardown) (more basic CRUD)
 * Entering simulated sales for those products
 * Doing some basic math to compute inventory and profit metrics based on sales.
 
-We're not expecting this to take more than a few days of spare time.  Skip the optional section if you find yourself spending too much time on it.  Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying you're ability to also focus on the business rules on the backend.  Get the basics down and then iterate to make refinements.
+We're not expecting this to take more than a few days of spare time.
+*  Skip the optional section if you find yourself spending too much time on it.
+* Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying you're ability to also focus on the business rules on the backend.
+* Get the basics down and then iterate to make refinements.
+*  _**The optional stories are indeed optional**_. This is not a trick.
 
 Finally, demonstrate the software engineering techniques which you practice and advocate for.
 
