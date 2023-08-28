@@ -7,7 +7,7 @@ For this exercise, develop a full stack application using both the technical and
 1. Share the link to your solution in a GitHub public repository
 1. Share a link to your working application deployed to the cloud provider of your choice.
 
-**E-mail humanresources@cleardemand.com with the above links to your solution.**
+**E-mail devteam@cleardemand.com with the above links to your solution.**
 
 _Note: This exercise may seem rather lengthy, however, we've been purposely verbose to explain the business requirements for the solution.  See the [Helpful Hints](#helpful-hints) section for guidance on using your time wisely._
 
