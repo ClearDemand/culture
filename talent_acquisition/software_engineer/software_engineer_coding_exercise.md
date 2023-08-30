@@ -49,6 +49,7 @@ For the purposes of this exercise, a **Product** should have the following attri
   * a unique human readable identifier (i.e. UPC)
   * a description
   * a cost (this is how much the product costs me as a store owner to manufacture or buy)
+  * the regular every-day price (in USD)
 
 **Inventory** is defined as the number of units of a product on hand at a specific date.
 
@@ -131,53 +132,6 @@ _Note: We want to see the results of the plan in terms of profit and loss._
   * the day's profit (or loss) for that product.
   * the remaining inventory.
 
-## Optional
-
-All the user stories below are completely optional to implement for this exercise.
-
-### User Story #5: View a Summary Report
-
-#### Value
-
-As a Store Owner, I want to see a simple report summary of the Markdown plan.
-
-_Note: We want to see the results of the plan in terms of profit and loss._
-
-#### Acceptance Criteria
-* I should be able to see the detailed information about the product
-  * unique identifier
-  * description
-  * starting inventory
-
-* I should be able to see the following summary information for the Markdown plan:
-  * the total number number of units sold for the entire plan.
-  * the profit (or loss) for that product over the entire plan.
-  * the final remaining inventory (number of units) after all of the sales.
-
-### User Story #6: Maintain the Products Being Sold
-
-#### Value
-
-As a Store Owner, I want to be able to maintain (Create, Read, Update, Delete) a set of Products that I sell.
-
-#### Acceptance Criteria
-* For products I want to be able to set
-  * a unique human readable identifier (i.e. UPC)
-  * a description
-  * a cost (this is how much the product costs me as a store owner to manufacture or buy)
-
-### User Story #7: Ability to Set the Current Inventory Level
-
-#### Value
-
-As a Store Owner, I want to be able to set the current inventory of my products.
-
-#### Acceptance Criteria
-
-* For a selected product...
-  * I should be able to set and update the quanitity.
-  * If I enter a quantity of zero, assume that means it's out of stock.
-
 ## Helpful hints
 
 This exercise may seem rather lengthy to complete, but it boils down to a few basic concepts:
@@ -188,12 +142,19 @@ This exercise may seem rather lengthy to complete, but it boils down to a few ba
 
 We're not expecting this to take more than a few days of spare time.
 *  Skip the optional section if you find yourself spending too much time on it.
-* Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying you're ability to also focus on the business rules on the backend.
+* Don't waste a lot of time making an elegantly beautiful front end thereby sacrificying your ability to also focus on the business rules on the backend.
 * Get the basics down and then iterate to make refinements.
-*  _**The optional stories are indeed optional**_. This is not a trick.
 
 Finally, demonstrate the software engineering techniques which you practice and advocate for.
 
 Good Luck!
+
+## Optional Enhancements
+
+If you've had fun with and been able to breeze through the required user stories above for this coding exercise, and you want to enhance it further, we have a number of optional user stories to enhance your solution even further.
+
+Go to the **[Optional Enhancements](software_engineer_coding_exercise_optional.md)** page to build upon what you've created.
+
+_**The optional stories are indeed optional**_. This is not a trick.
 
 
