@@ -102,7 +102,7 @@ I have a Markdown Plan which goes from September 1st through the 30th. The curre
 
 As a Store Owner, I want to be able to enter sales data for the Products I've put on markdown.
 
-Note: We want to enter sales data using the Markdown Plan I created.
+_Note: I want to enter sales data using the Markdown Plan I created._
 
 #### Acceptance Criteria
 
@@ -110,7 +110,6 @@ Note: We want to enter sales data using the Markdown Plan I created.
 * For each day of the markdown plan I should be able to sequentially enter in the total number of units of that product sold that day.
 * I cannot sell more units than I have actually have inventory for.
 * The sell price **must** reflect the price reductions set up in the Markdown Plan.
-
 
 ### User Story #4 See Daily Metrics
 
@@ -156,5 +155,3 @@ If you've had fun with and been able to breeze through the required user stories
 Go to the **[Optional Enhancements](software_engineer_coding_exercise_optional.md)** page to build upon what you've created.
 
 _**The optional stories are indeed optional**_. This is not a trick.
-
-

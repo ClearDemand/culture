@@ -47,4 +47,3 @@ As a Store Owner, I want to be able to set the current inventory of my products.
 * For a selected product...
   * I should be able to set and update the quanitity.
   * If I enter a quantity of zero, assume that means it's out of stock.
-
