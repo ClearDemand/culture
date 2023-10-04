@@ -73,7 +73,7 @@ As a Store Owner, I want to be able to import my Markdown Plans so I don't have 
 _in addition to the [General Acceptance Criteria for data imports](#general-acceptance-criteria)..._
 * If a product is contained in differnt Markdown Plans whose dates overlap, that's not a valid scenario
 
-### User Story #4 Import Sales Data
+### User Story #3 Import Sales Data
 
 #### Value
 
@@ -92,12 +92,12 @@ _in addition to the [General Acceptance Criteria for data imports](#general-acce
 * I should be able to view the report in a browser
 * I should be able to export the report so that I can view the underlying report data in Excel
 
-### User Story #5
+### User Story #4
 
 * Implement a reporting solution for the requiremnts outlined in the [Daily Metrics Report requirements from the Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise.md#user-story-4-see-daily-metrics)
 * Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
 
-### User Story #6
+### User Story #5
 * Implement a reporting solution for the requiremnts outlined in the [Summary Report requirements from the Optional Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise_optional.md#user-story-5-view-a-summary-report)
 * Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
 
