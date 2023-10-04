@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For this exercise, you will be developing a schema, data import, and reporting capabilities both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
+For this exercise, you will be developing a schema, data import, and reporting capabilities based on both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
 
 Share any relevant artifacts for your solution including, but not limited to...
   1. The source code in a GitHub public repository
@@ -28,7 +28,7 @@ All of the major cloud providers provide some sort of introductory free and "alw
 
 ## Business Requirements
 
-Step 1 is the Read through and *familiarize yourself* with the **business requirements** for the [software engineering coding exercise](../software_engineer/software_engineer_coding_exercise.md), starting with the "**Backstory**", including the [optional section](../software_engineer/software_engineer_coding_exercise_optional.md).
+**Step 1** is to read through and *familiarize yourself* with the **business requirements** for the [software engineering coding exercise](../software_engineer/software_engineer_coding_exercise.md), starting with the "**Backstory**", including the [optional section](../software_engineer/software_engineer_coding_exercise_optional.md).
 
 *Note: You will **NOT** be required to implement a full stack solution but you do need to understand the requirements.*
 
@@ -36,7 +36,12 @@ Step 1 is the Read through and *familiarize yourself* with the **business requir
 
 ### Schema Design
 
-Create a **database schema** and associated **Entity-Relationship Diagram (ERD)** that would satisfy the needs of the Business Requirments outlined in the [software engineering coding exercise](../software_engineer/software_engineer_coding_exercise.md), including the [optional section](../software_engineer/software_engineer_coding_exercise_optional.md)
+Create both a...
+
+* **database schema** and
+* an associated **Entity-Relationship Diagram (ERD)**
+
+ ... that would satisfy the needs of the **Business Requirments** outlined in the [software engineering coding exercise](../software_engineer/software_engineer_coding_exercise.md), including the [optional section](../software_engineer/software_engineer_coding_exercise_optional.md).
 
 ## User Stories - Data Imports
 
@@ -77,8 +82,9 @@ As a Store Owner, I want to be able to import sales data for the Products I've p
 #### Acceptance Criteria
 
 _in addition to the [General Acceptance Criteria for data imports](#general-acceptance-criteria)..._
-* If a product is sold outside of the period of, or not included within the Markdown plan,
-  assume it was sold at the regular prices
+* If a product is sold outside of the period of an associated Markdown plan
+  assume it was sold at its regular price.
+* If a product is not included within any Markdown plan, assume it was sold at its regular price.
 
 ## User Stories - Reports
 
@@ -89,9 +95,11 @@ _in addition to the [General Acceptance Criteria for data imports](#general-acce
 ### User Story #5
 
 * Implement a reporting solution for the requiremnts outlined in the [Daily Metrics Report requirements from the Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise.md#user-story-4-see-daily-metrics)
+* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
 
 ### User Story #6
 * Implement a reporting solution for the requiremnts outlined in the [Summary Report requirements from the Optional Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise_optional.md#user-story-5-view-a-summary-report)
+* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
 
 ## Helpful Hints
 
