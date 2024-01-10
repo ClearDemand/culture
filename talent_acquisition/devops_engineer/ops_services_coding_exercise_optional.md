@@ -1,6 +1,6 @@
 ## Optional Enhancements
 
-If you've had fun with and been able to breeze through the required user stories for the [coding exercise](software_engineer_coding_exercise.md), and you want to enhance it further, feel free to tackle the stories below.
+If you've had fun with and been able to breeze through the required user stories for the [coding exercise](ops_services_coding_exercise.md), and you want to enhance it further, feel free to tackle the stories below.
 
 _**All the user stories below are completely optional to implement for this exercise**_.
 
@@ -14,8 +14,8 @@ Rather than producing fancy reports, many times a simple data export will do.  F
 ### User Story #4
 
 * Implement an export of data that fulfills the requiremnts outlined in the [Daily Metrics Report requirements from the Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise.md#user-story-4-see-daily-metrics)
-* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
+* Pay attention to the [general acceptance criteria](./ops_services_coding_exercise.md#general-acceptance-criteria-1) for reports.
 
 ### User Story #5
 * Implement an export of data that fulfills the requiremnts outlined in the [Summary Report requirements from the Optional Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise_optional.md#user-story-5-view-a-summary-report)
-* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
+* Pay attention to the [general acceptance criteria](./ops_services_coding_exercise.md#general-acceptance-criteria-1) for reports.
