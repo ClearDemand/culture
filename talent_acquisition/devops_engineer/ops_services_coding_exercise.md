@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For this exercise, you will be developing a schema, data import, and reporting capabilities based on both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
+For this exercise, you will be developing a schema, data import, and (optionally) reporting capabilities based on both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
 
 Share any relevant artifacts for your solution including, but not limited to...
   1. The source code in a GitHub public repository
@@ -92,21 +92,11 @@ _in addition to the [General Acceptance Criteria for data imports](#general-acce
   assume it was sold at its regular price.
 * If a product is not included within any Markdown plan, assume it was sold at its regular price.
 
-## User Stories - Exports
+## Optional Enhancements
 
-Rather than producing fancy reports, many times a simple data export will do.  For these stories we simply want to be able to export the data to fulfill the associated use cases.
+If you've had fun with and been able to breeze through the required user stories above for this coding exercise, and you want to enhance it further, we have a number of optional user stories to enhance your solution even further.
 
-### General Acceptance Criteria
-* As a user, I should be able to export the report so that I can view the underlying report data in Excel
-
-### User Story #4
-
-* Implement an export of data that fulfills the requiremnts outlined in the [Daily Metrics Report requirements from the Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise.md#user-story-4-see-daily-metrics)
-* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
-
-### User Story #5
-* Implement an export of data that fulfills the requiremnts outlined in the [Summary Report requirements from the Optional Software Engineer Coding Exercise](../software_engineer/software_engineer_coding_exercise_optional.md#user-story-5-view-a-summary-report)
-* Pay attention to the [general acceptance criteria above](#general-acceptance-criteria-1) for reports.
+Go to the **[Optional Enhancements](ops_services_coding_exercise_optional.md)** page to build upon what you've created.
 
 ## Helpful Hints
 
