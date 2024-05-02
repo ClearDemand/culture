@@ -4,7 +4,7 @@
 
 For this exercise, develop a full stack application using both the technical and business requirements further down in this document. Please provide both the source code and a working version of your application.
 
-1. Share the link to your solution in a GitHub public repository
+1. Share the link to your solution in a GitHub public repository.
 1. Share a link to your working application deployed to the cloud provider of your choice.
 
 **E-mail devteam@cleardemand.com with the above links to your solution.**
