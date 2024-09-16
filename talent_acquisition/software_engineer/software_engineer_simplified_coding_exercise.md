@@ -11,25 +11,26 @@ For this exercise, you will develop a **full stack application** using both the 
 
 The following are the preferred technolgies we would like to see used to implement this solution.
 
-* Blazor WebAssembly
+* C#
 * ASP.NET
-* A Relational Database (i.e. SQL Server, Postgres, sqlite)
+* Blazor WebAssembly
+* A relational database (i.e. SQL Server, Postgres, sqlite)
 
 ## Backstory
 
-We'll be creating a simple application targeted at small convenience store owners.  We will be providing them with an easy way to keep track of the products they sell in their stores. 
+We'll be creating a simple web application targeted at small convenience store owners.  We will be providing them with an easy way to keep track of the inventory of the products they sell in their stores. 
 
-The following are a set of user stories to help craft the application
+Below, you will find both technical and business requirements to help you craft the application.
 
-## Technical Ipmlementation
+## Technical Requirements
 
 You will build out a simple, full-stack application for the store owner to maintain their set of products in their store.  By maintain, we mean, perform the simply CRUD (Create, Read, Update, Delete) that one would do. 
 
 For the purposes of reducing the scope of this exercise a **Product** will have the following properties.
-  * a unique human readable identifier (i.e. ProductId or UPC)
-  * a description
-  * current price (in USD)
-  * quantity (number of units)
+  * UPC (a unique human readable identifier)
+  * a description (text which describes the product)
+  * current price (current retail price of the item in USD)
+  * quantity (number of units they currently have)
 
 ## User Stories
 
@@ -37,31 +38,34 @@ For the purposes of reducing the scope of this exercise a **Product** will have 
 
 #### Value
 
-As a Store Owner, I want to see a table or grid of all of the products I have entered into the system
+As a Store Owner, I want to see a table or grid of all of the products I have entered into the software.
 
 #### Acceptance Criteria
 
 * I should be able to see all of the products on the screen.
-* I should be able to see all of the properties of each Product (product Id, description, price, quantity)
+* I should be able to see all of the properties of each Product (product Id, description, price, quantity).
+* The products should be displayed in some sort of table or grid.
+* Text values should be left aligned.
+* Numerical values should be right aligned.
+* The table should contain the appropriate headings.
 
 ### User Story #2: Add new products to the system
 
 #### Value
 
-As a Store Owner, I want to be add additional products to the system.
+As a Store Owner, I want to be add additional products to the software.
 
 #### Acceptance Criteria
 
 * I should be able to enter the information about that product (product Id, description, price, quantity).
 * It should tell me if I've entered invalid values for any of the properties and not let me save that product.
-* It should let me save my new product.
 * After I successfully save the new product, it should show the new product in the table which shows me all of the products.
 
 ### User Story #3 Update an existing product in the system
 
 #### Value
 
-As a Store Owner, I want to be able to modify any of the products I've already entered into the system
+As a Store Owner, I want to be able to modify any of the products I've already entered into the software.
 
 #### Acceptance Criteria
 
@@ -75,7 +79,7 @@ As a Store Owner, I want to be able to modify any of the products I've already e
 
 #### Value
 
-As a Store Owner, I want to be able to delete any of the products I've already entered into the system
+As a Store Owner, I want to be able to delete any of the products I've already entered into the software.
 
 #### Acceptance Criteria
 * I should be able to choose any of the existing products in the system and choose to delete it.
