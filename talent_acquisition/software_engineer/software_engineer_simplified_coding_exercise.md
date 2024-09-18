@@ -50,7 +50,7 @@ As a Store Owner, I want to retrieve all of the products I have entered into the
 #### Acceptance Criteria
 
 * I should be able to retrieve all of the properties for each Product (product Id, description, price, quantity).
-* I should be able to identify the values by their field names.
+* I should be able to see the field names and their associated values for each product.
 
 ### User Story #2: Add new products to the system
 
@@ -60,8 +60,8 @@ As a Store Owner, I want to be add additional products to the software.
 
 #### Acceptance Criteria
 
-* I should be able to enter the information about that product (product Id, description, price, quantity).
-* I should be made aware of invalid values that have been submitted.
+* I should be able to submit the information about that product (product Id, description, price, quantity).
+* I should be made aware of invalid values that may have been submitted.
 * After I successfully create the new product, it should be available in the system.
 
 ### User Story #3 Update an existing product in the system
@@ -80,10 +80,10 @@ As a Store Owner, I want to be able to modify any of the products I've already e
 
 #### Value
 
-As a Store Owner, I want to be able to delete any of the products I've already entered into the software.
+As a Store Owner, I want to be able to delete any of the products I've already added into the software.
 
 #### Acceptance Criteria
-* I should be delete any of the existing products in the system.
+* I should be able to delete any of the existing products in the system.
 * After I successfully delete that product, it should no longer be available in the system.
 
 ## Helpful hints
